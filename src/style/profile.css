@@ -1,0 +1,47 @@
+.profile{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 10px 10px 20px black;
+    flex-direction: column;
+}
+
+.textData{
+    max-width: 50vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.textData h2{
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1440px ){
+    
+    .profile{
+        padding: 3rem;
+        display: flex;
+        justify-content: flex;
+        background-color: aliceblue;
+        border-radius: 10px;
+        font-family: 'Lato', sans-serif;
+        box-shadow: 10px 10px 20px black;
+        max-width: 50rem;
+        flex-direction: row;
+    }
+
+    .textData{
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .textData h2{
+        margin-bottom: 1rem;
+    }
+
+    
+}

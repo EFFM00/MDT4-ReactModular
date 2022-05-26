@@ -1,5 +1,4 @@
 import Datos from "./Datos";
-import './style/ProfileData.css';
 
 const {personalData:{avatar}} = Datos;
 

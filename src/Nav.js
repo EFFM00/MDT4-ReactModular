@@ -5,18 +5,10 @@ const Nav = () => {
         <header>
             <nav>
                 <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Career
-                    </li>
-                    <li>
-                        Education
-                    </li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Career</li>
+                    <li>Education</li>
                 </ul>
             </nav>
         </header>

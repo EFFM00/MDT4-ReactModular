@@ -1,0 +1,21 @@
+.imgProfile{
+    max-width: rem;
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProfile img{
+    max-width: 50vw;
+    height: auto;
+    margin: 0 0 3rem 0;
+}
+
+@media screen and (min-width: 1440px ){
+    .imgProfile img{
+        max-width: 20rem;
+        height: auto;
+        margin: 0 0;
+    }
+}
